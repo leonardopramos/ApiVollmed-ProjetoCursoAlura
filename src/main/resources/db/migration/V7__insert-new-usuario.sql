@@ -1,0 +1,1 @@
+insert into usuarios values (1, 'ana.souza@voll.med', '123456');
