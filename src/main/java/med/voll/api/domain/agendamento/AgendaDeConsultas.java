@@ -2,8 +2,8 @@ package med.voll.api.domain.agendamento;
 
 import med.voll.api.domain.Pacientes.PacientesRepository;
 import med.voll.api.domain.ValidacaoException;
-import med.voll.api.domain.agendamento.validacoes.ValidadorAgendamentoDeConsulta;
-import med.voll.api.domain.agendamento.validacoes.ValidadorCancelamentoDeConsulta;
+import med.voll.api.domain.agendamento.validacoes.agendar.ValidadorAgendamentoDeConsulta;
+import med.voll.api.domain.agendamento.validacoes.cancelar.ValidadorCancelamentoDeConsulta;
 import med.voll.api.domain.medico.Medico;
 import med.voll.api.domain.medico.MedicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
