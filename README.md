@@ -19,7 +19,8 @@ Este projeto representa uma API desenvolvida como parte do curso "Spring Boot 3"
 - **Aprimoramento de Código:** [Lombok](https://projectlombok.org/)
 - **Autenticação:** [JWT (JSON Web Token)](https://jwt.io/)
 - **Segurança:** Java Security
-- **Test
+- **Teste automatizado**: JUnit
+
 
 ## Como Executar
 
