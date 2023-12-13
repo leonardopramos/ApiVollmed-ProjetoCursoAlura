@@ -47,3 +47,47 @@ Este projeto foi desenvolvido como parte do curso "Spring Boot 3" da Alura, prop
 **Contato:** leonardopreczevskiramos@gmail.com
 
 **LinkedIn:** https://www.linkedin.com/in/leonardo-preczevski-733501215/
+
+# Medical Clinic API (English Version)
+
+This project represents an API developed as part of the "Spring Boot 3" course at Alura. The API was built using Spring Boot 3, Maven, MySQL, Lombok, Flyway, Spring Data JPA, Hibernate, JWT (JSON Web Token) for authentication, and Java Security. The course aimed to provide advanced knowledge in Spring Boot and Java for the development of an application designed to meet the needs of a medical clinic.
+
+## Features
+
+- **Registration and Login:** Support for registration and authentication of doctors, patients, and clinic employees.
+- **Appointment Registration:** Ability to register appointments associated with doctors and patients.
+- **Employee User:** A clinic user can be designated to register appointments.
+
+## Technologies Used
+
+- **Framework:** [Spring Boot 3](https://spring.io/projects/spring-boot)
+- **Dependency Management:** [Maven](https://maven.apache.org/)
+- **Database:** [MySQL](https://www.mysql.com/)
+- **Database Migration Control:** [Flyway](https://flywaydb.org/)
+- **Data Persistence:** [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+- **Object-Relational Mapping:** [Hibernate](https://hibernate.org/)
+- **Code Enhancement:** [Lombok](https://projectlombok.org/)
+- **Authentication:** [JWT (JSON Web Token)](https://jwt.io/)
+- **Security:** Java Security
+- **Automated Testing:** [JUnit](https://junit.org/)
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project in your preferred IDE.
+3. Ensure you have a MySQL server configured and accessible.
+4. Configure database properties in the `application.properties` or `application.yml` file.
+5. Run the Spring Boot project.
+
+## Automated Tests
+
+The project includes automated tests to ensure the integrity and proper functioning of the API. Run the tests using tools like JUnit.
+
+```bash
+# Example of running tests via Maven
+mvn test
+```
+
+## Notes
+
+This project was developed as part of the "Spring Boot 3" course at Alura, providing advanced knowledge in Spring Boot, Java, and best practices for building robust APIs. If you have any questions or suggestions, feel free to contact us.
